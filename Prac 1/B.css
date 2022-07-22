@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    
+    width: 94%;
+    position: fixed;
+   
+}
+
+    
+
+/*----------------------*/
+
+nav{
+    
+    display: flex;
+    padding: 1% 12%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-lang{
+    text-align: top;
+}
+
+
+.nav-lang ul li{
+     list-style: none;
+     display: inline-block;
+     padding: 8px 12px;
+     position: relative;
+     
+}
+.nav-lang ul li a{
+    color:#050505;
+    text-decoration: none;
+    font-size: 13PX;
+    }
+
+nav img{
+       width: 100px;
+
+}
+.nav-links{
+    flex: 1;
+    text-align: center;
+}
+
+.nav-links ul li{
+     list-style: none;
+     display: inline-block;
+     padding: 5px 12px;
+     position: relative;
+}
+
+.nav-links ul li a{
+    color:#050505;
+    text-decoration: none;
+    font-size: 13PX;
+    }
+
+    .nav-links ul li::after{
+        content: '';
+         /* width: 100%; */
+        width: 0%;
+        height: 2px;
+        background: #030303;
+        display: block;
+        margin: auto;
+        
+
+    }
+    .nav-links ul li:hover::after{
+        width: 100%;
+    }
+    /*-----------------------------------------*/
+.content{
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    padding-top: 100px;
+    
+}
+.content-col ul{
+    background-color: #000000;
+    
+}
+
+.content-col ul li{
+     
+     list-style: none;
+     display: inline-block;
+     padding: 5px 10px;
+     position: relative;
+     align-items: center;
+     
+ }
+.content-col ul li a{
+    color:#ffffff;
+    text-decoration: none;
+    font-size: 15PX;
+    }
+    /*------------------------------------*/
+.global{
+    width: 94%;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+    justify-content: space-between;
+}
+.global-col ul li{
+    list-style-image: none;
+    display: inline-block;
+    padding: 0px 17px;
+    position: relative;
+
+
+}
+h1{
+    text-align: left;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.global-col  a{
+    color:#000000;
+    text-decoration: none;
+    font-size: 15PX;
+    position: unset ;
+    }
+    /*-------------------------------*/
+.services{
+        width: 94%;
+        margin: auto;
+        padding: 1% 11%;
+        
+    }
+    .row{
+        margin: auto;
+        display: flex;
+        
+    }
+    .div1 img{
+        width:100%;
+    }
+    .div2{
+        width:55%;
+    }
+
+/*.div1 img{
+        width:47%;
+        float: left;
+    }
+
+.div2 {
+        width:47%;
+        float:right;
+        display: list-item;
+        justify-content : space-between;
+        color: rgb(0, 0, 0);
+        padding: 10px 10px;
+        
+} */      
+    
+
+    
+
+    .hero-btn{
+        
+        width: 47%;
+        display: flex;
+        text-decoration: none;
+        color: #060606;
+        border: 1px solid #FFFFFF;
+        padding: 10px 0;
+        background: transparent;
+        cursor: pointer;
+        
+    }
+    .hero-btn:hover{
+        border: 1px solid #2d2c2c;
+        background: #2d2c2c;
+        transition: 1s;
+        
+    }
+    .fa{
+        display:flex;
+        color: #272626;
+    }
+
+    /*----------------------------------------*/
+.selection{
+        width: 94%;
+        margin: auto;
+        
+        text-align: left;
+    }
+
+
+.row{
+            margin-top: 5%;
+            display: flex;
+            justify-content: space-between;
+}
+.col-md-3 img{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    
+}
+h1{
+    text-align: center;
+}
+/*--------------------------------*/
+.hotline{
+    width: 70%;
+    margin: auto;
+}
+.hotline.div2 img{
+    align-items:center;
+    width:50%;
+}
+/*---------------------------------*/
+
+.details{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: silver;
+}
+/*
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.div1{
+    float:left;
+}
+.div1 ul li{
+    list-style: none;
+}
+
+.div2{
+    float: left;
+}
+.div2 ul li{
+    list-style: none;
+}
+.div3{
+    float: left;
+}
+.div3 ul li{
+    list-style: none;
+}
+.div4{
+    float:left;
+}
+.details div{
+    padding : 1%;
+    
+    background-color: 009900;
+    width: 100%;
+    
+    }
+---------*/
+.details.col-sm-1{
+    width:94%;
+}
+.details ul li{
+    list-style: none;
+    text-align: left;
+    color: #ffffff;
+    
+}
+/*-----------------------------------*/
+.footer{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
